@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'rest_framework',
     # Userdata application 
     'userdata.apps.UserdataConfig',
+    # CORS
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
